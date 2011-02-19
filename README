@@ -1,0 +1,14 @@
+This is my submission to the Jfokus 2011 Conference Programming Competition organized by Citerus (www.citerus.se)
+
+To test:
+> sbt
+> update
+> test
+
+
+It includes 3 tests, one of them being the string taken from the competition
+
+Features:
+- Tail recursion (optimization from scala compiler)
+- Mixin composition in the tests, so that one can instantiate the class under test with additional timing information that will also be logged to the console (measures the time it takes for each iteration in the recursion)
+
